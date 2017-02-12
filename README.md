@@ -2,9 +2,21 @@
 
 Execute MarkLogic queries from the command line.
 
+## Install
+
+    yarn add https://github.com/eurochriskelly/ml-query-termina
+    
+## Setup
+
+- Configure config.json 
+- Configure privileges for user in config.json (if not admin)
+- add to package.json
+
+    "scripts" : { "mlqt" : "node_modules/ml-query-terminal/index.js" }
+
 ## Usage:
 
-    npm start -- -q examples/foo.xqy
+    npm run mlqt -- -q examples/foo.xqy
 
 Sends query to server, executes, and sends results back for parsing
 with command line tools.
@@ -20,4 +32,4 @@ every time the query changes.
 
 Usage:
 
-    npm start -- -wq examples/foo.xqy
+    npm run mlqt -- -wq examples/foo.xqy
