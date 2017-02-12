@@ -1,6 +1,8 @@
-Run MarkLogic commands from the command line.
+# ml-query-terminal
 
-Usage:
+Execute MarkLogic queries from the command line.
+
+## Usage:
 
     npm start -- -q examples/foo.xqy
 
@@ -11,7 +13,7 @@ Useful for running simple setup commands from command line or running
 on server where ssh is possible but http access to port 8000 is
 restricted.
 
-Advanced options:
+## Advanced options:
 
 Watch functionality is possible using the w flag. This will re-run
 every time the query changes.
