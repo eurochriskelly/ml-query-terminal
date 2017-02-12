@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "marklogic": "^1.0.6",
+    "rambda": "^0.5.1",
+    "yargs": "^6.6.0"
+  }
+}
