@@ -1,0 +1,7 @@
+{
+ "host" : "localhost",
+ "port" : "8000",
+ "user" : "admin",
+ "password" : "admin",
+ "authType" : "DIGEST"
+}
