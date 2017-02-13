@@ -3,6 +3,9 @@
     "description" : "execute marklogic queries from the terminal",
     "version" : "0.2.0",
     "main" : "bin/index.js",
+    "bin" : {
+	"mlqt" : "bin/index.js"
+    },
     "scripts": {
 	"start": "node bin/index.js",
 	"sample" : "node bin/index.js -q examples/foo.xqy"
