@@ -1,9 +1,10 @@
 {
     "name" : "ml-query-terminal",
     "description" : "execute marklogic queries from the terminal",
-    "version" : "0.1.0",
+    "version" : "0.2.0",
     "scripts": {
-	"start": "node index.js"
+	"start": "node bin/index.js",
+	"sample" : "node bin/index.js -q examples/foo.xqy"
     },
     "dependencies": {
 	"cli-color": "^1.1.0",
