@@ -4,7 +4,7 @@ Execute MarkLogic queries from the command line.
 
 ## Install
 
-    yarn add https://github.com/eurochriskelly/ml-query-termina
+    yarn add https://github.com/eurochriskelly/ml-query-terminal
     
 ## Setup
 

@@ -6,6 +6,7 @@
 	"start": "node bin/index.js",
 	"sample" : "node bin/index.js -q examples/foo.xqy"
     },
+    "global" : true,
     "dependencies": {
 	"cli-color": "^1.1.0",
 	"marklogic": "^1.0.6",
