@@ -10,13 +10,16 @@ Execute MarkLogic queries from the command line.
 
 - Configure config.json 
 - Configure privileges for user in config.json (if not admin)
-- add to package.json
+- OPTIONAL: add to package.json
 
-    "scripts" : { "mlqt" : "node_modules/ml-query-terminal/index.js" }
+    "scripts" : { "mlqt" : "mlqt" }
 
 ## Usage:
 
-    npm run mlqt -- -q examples/foo.xqy
+   With yarn, adding to package.json scripts is not required by
+   default. So you can just run:
+
+    yarn run mlqt -- -q examples/foo.xqy
 
 Sends query to server, executes, and sends results back for parsing
 with command line tools.
@@ -32,4 +35,4 @@ every time the query changes.
 
 Usage:
 
-    npm run mlqt -- -wq examples/foo.xqy
+    yarn run mlqt -- -wq examples/foo.xqy
