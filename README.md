@@ -8,11 +8,15 @@ Execute MarkLogic queries from the command line.
     
 ## Setup
 
-- Configure config.json 
+- Configure config.json
 - Configure privileges for user in config.json (if not admin)
-- OPTIONAL: add to package.json
+- OPTIONAL: add scripts to package.json
 
-    "scripts" : { "mlqt" : "mlqt" }
+    "scripts" : {
+      "mlqt" : "mlqt",
+      "xq:setup" : "mlqt -q setup-file.xqy",
+      "js:setup" : "mlqt -q setup.js",
+    }
 
 ## Usage:
 
