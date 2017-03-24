@@ -3,6 +3,9 @@
 'use strict';
 const path = require('path');
 const marklogic = require('marklogic');
+var sslRootCAs = require('ssl-root-cas/latest')
+sslRootCAs.inject()
+
 var CONFIG;
 try {
     // load section of package.json

@@ -1,7 +1,7 @@
 {
     "name" : "ml-query-terminal",
     "description" : "execute marklogic queries from the terminal",
-    "version" : "0.3.0",
+    "version" : "0.3.1",
     "main" : "bin/index.js",
     "bin" : {
 	"mlqt" : "bin/index.js"
