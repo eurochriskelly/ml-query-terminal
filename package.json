@@ -1,20 +1,21 @@
 {
-    "name" : "ml-query-terminal",
-    "description" : "execute marklogic queries from the terminal",
-    "version" : "0.4.0",
-    "main" : "bin/index.js",
-    "bin" : {
-	"mlqt" : "bin/index.js"
-    },
-    "scripts": {
-	"start": "node bin/index.js",
-	"sample" : "node bin/index.js -q examples/foo.xqy"
-    },
-    "global" : true,
-    "dependencies": {
-	"cli-color": "^1.1.0",
-	"marklogic": "^1.0.6",
-	"rambda": "^0.5.1",
-	"yargs": "^6.6.0"
-    }
+   "name": "ml-query-terminal",
+   "description": "execute marklogic queries from the terminal",
+   "version": "0.4.0",
+   "main": "bin/index.js",
+   "bin": {
+      "mlqt": "bin/index.js"
+   },
+   "scripts": {
+      "start": "node bin/index.js",
+      "sample": "node bin/index.js -q examples/foo.xqy"
+   },
+   "global": true,
+   "dependencies": {
+      "cli-color": "^1.1.0",
+      "marklogic": "^1.0.6",
+      "rambda": "^0.5.1",
+      "ssl-root-cas": "^1.2.3",
+      "yargs": "^6.6.0"
+   }
 }
